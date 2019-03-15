@@ -7,7 +7,7 @@ describe 'new post' do
   end
 
   it 'renders HTML in the/new template' do
-    visit new_path_post
+    visit new_post_path
     expect(page).to have_content('Post Form')
   end
 
